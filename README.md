@@ -1,14 +1,13 @@
 ## Test Online Bootcamp Arkademy
-```
 Disini Saya memberi nama file sesuai dengan nomor soal
-```
+
 ### 1. Return JSON
 Disini Saya menggunakan bahasa PHP dengan alasan lebih mudah. Bisa dijalankan melalui web server PHP maupun melalui command line
 ```
 $ php 1.php
 ```
 
-### 2. Filter Username
+### 2. Username Filter
 Disini Saya menggunakan Javascript dan jQuery dengan alasan akan lebih baik jika filter memiliki respon langsung yang cepat.
 ```
 File 2.html bisa langsung dibuka pada browser
@@ -39,3 +38,8 @@ Pada file 6.txt berisi perintah query dimana pada soal meminta menampilkan data 
 
 ### 7. Aplikasi Sederhana Dari Soal No. 6
 Untuk menjawab soal ini Saya pake bahasa PHP. Gunakan web server untuk menjalankannya dan sesuaikan pengaturan koneksi ke database dari soal nomor 6 sebelumnya
+
+### Thanks
+⋅⋅* Google
+⋅⋅* Stack Overflow
+⋅⋅* Arkademy
