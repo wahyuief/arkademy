@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>No. 2 - Username Filter</title>
+</head>
+<body>
+<form method="post">
+  <input type="text" name="username" placeholder="Username" onchange="Filter()">
+  <b id="answer"></b>
+  <br><br>
+  <b>Ketentuan:</b>
+  <ul>
+    <li>5 karakter pertama merupakan huruf</li>
+    <li>dilanjutkan dengan underscore</li>
+    <li>dilanjutkan dengan dua buah angka</li>
+    <li>contoh: wahyu_13</li>
+  </ul>
+</form>
+<script type="text/javascript" src="vendor/js/jquery.min.js"></script>
+<script type="text/javascript">
+  function Filter(){
+    $('input[name="username"]').each(function () {
+        var validated =  true;
+        if(this.value.length < 8 || this.value.length > 8) // jika karakter kurang dari 8 atau lebih dari 8 maka tidak valid
+            validated = false;
+        for (i=0;i<=4;i++){
+          if(!/^[a-zA-Z]/.test(this.value.charAt(i))) // jika karakter pada urutan 0-4 tidak terdapat huruf atau bukan huruf maka tidak valid
+              validated = false;
+        }
+        if(!/[_]{1}/.test(this.value.charAt(5))) // jika karakter pada urutan 5 tidak terdapat underscore atau bukan underscore maka tidak valid
+            validated = false;
+        for (i=6;i<=7;i++){
+          if(!/\d/.test(this.value.charAt(i))) // jika karakter pada urutan 6-7 tidak terdapat digit angka atau bukan digit angka maka tidak valid
+              validated = false;
+        }
+        $('b#answer').text(validated ? "VALID" : "INVALID");
+    });
+  }
+</script>
+</body>
+</html>
