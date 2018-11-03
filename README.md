@@ -3,12 +3,14 @@
 Soal yang diberikan:
 http://bit.ly/soalgrandbootcamp
 
+Disini Saya memberi nama file sesuai dengan nomor soal
+
 ### 1. Return JSON
 Disini Saya menggunakan bahasa PHP dengan alasan lebih mudah. Bisa dijalankan melalui web server PHP maupun melalui command line dengan perintah php 1.php
 
 
 ### 2. Filter Username
-Disini Saya menggunakan Javascript dengan alasan lebih baik filter dengan respon langsung yang cepat. Bisa langsung dibuka pada browser
+Disini Saya menggunakan Javascript dan jQuery dengan alasan akan lebih baik jika filter memiliki respon langsung yang cepat. File 2.html bisa langsung dibuka pada browser
 
 
 ### 3. Bilangan Prima
@@ -16,7 +18,7 @@ Disini Saya menggunakan bahasa Python lebih ringkas dan mudah dalam pengerjaanny
 
 
 ### 4. Mencari Jadwal Bentrok
-Sebenarnya saya masih kurang paham dengan yang satu ini dalam menjawabnya. Jadi mohon maaf kalo salah
+Sebenarnya Saya masih kurang paham dengan yang satu ini dalam menjawabnya. Jadi mohon maaf kalo salah
 
 
 ### 5. Menghitung Banyak Karakter
@@ -28,4 +30,4 @@ Yang satu ini sudah pasti menggunakan SQL. Bisa menggunakan web server seperti X
 
 
 ### 7. Aplikasi Sederhana Dari Soal No. 6
-Untuk menjawab soal ini saya pake bahasa PHP. Gunakan web server untuk menjalankannya dan sesuaikan pengaturan koneksi ke database dari soal nomor 6 sebelumnya
+Untuk menjawab soal ini Saya pake bahasa PHP. Gunakan web server untuk menjalankannya dan sesuaikan pengaturan koneksi ke database dari soal nomor 6 sebelumnya
