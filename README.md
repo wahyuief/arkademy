@@ -1,10 +1,7 @@
 ## Test Online Bootcamp Arkademy
-
-Soal yang diberikan:
-http://bit.ly/soalgrandbootcamp
-
+```
 Disini Saya memberi nama file sesuai dengan nomor soal
-
+```
 ### 1. Return JSON
 Disini Saya menggunakan bahasa PHP dengan alasan lebih mudah. Bisa dijalankan melalui web server PHP maupun melalui command line
 ```
@@ -12,8 +9,10 @@ $ php 1.php
 ```
 
 ### 2. Filter Username
-Disini Saya menggunakan Javascript dan jQuery dengan alasan akan lebih baik jika filter memiliki respon langsung yang cepat. File 2.html bisa langsung dibuka pada browser
-
+Disini Saya menggunakan Javascript dan jQuery dengan alasan akan lebih baik jika filter memiliki respon langsung yang cepat.
+```
+File 2.html bisa langsung dibuka pada browser
+```
 
 ### 3. Bilangan Prima
 Disini Saya menggunakan bahasa Python karena lebih ringkas dan mudah dalam pengerjaannya. Bisa dijalankan menggunakan python versi 2 & 3
