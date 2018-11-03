@@ -40,6 +40,6 @@ Pada file 6.txt berisi perintah query dimana pada soal meminta menampilkan data 
 Untuk menjawab soal ini Saya pake bahasa PHP. Gunakan web server untuk menjalankannya dan sesuaikan pengaturan koneksi ke database dari soal nomor 6 sebelumnya
 
 ### Thanks
-⋅⋅* Google
-⋅⋅* Stack Overflow
-⋅⋅* Arkademy
+* Google
+* Stack Overflow
+* Arkademy
